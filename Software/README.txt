@@ -1,4 +1,4 @@
-The Tec21P16.zip file contains a general draft for one of the sensor modules' software.
+The Modules folder contains a software template for each of the sensor modules' software.
 
 Upcoming:
 Sensor-specific software
