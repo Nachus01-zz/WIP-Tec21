@@ -12,7 +12,6 @@ void li2c_Init()
     SCLPO=0b10000;              //SCL Output pin to RC0
     
     SSPEN=1;                    //Module enable
-    RCEN=1;                     //Reception enable
     SSP1CON1bits.SSPM=0b1000;   //I2C Master mode,
     SSP1ADD=2;                  //clock=FOSC/(4*(SSPxADD+1))
     
